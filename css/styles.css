@@ -1,0 +1,59 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather', serif;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+.container-fluid{
+  padding : 4% 10%;
+}
+
+/* Title */
+#title .container-fluid{
+  padding: 2% 10% 4% 10%;
+}
+
+.title-img{
+  width: 80%;
+  padding-top: 12%;
+  border-radius: 100%;
+}
+
+.title-para{
+  font-size: 0.8rem;
+  padding: 6% 2.5% 3% 0;
+}
+
+
+/* Publications */
+
+.publications-card{
+  padding: 0.1%;
+  margin: 4%;
+}
+
+.publications-card-btn{
+  margin-top: 5px;
+}
+
+
+/* Footer */
+.footer-content{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.social-icon{
+  margin: 1.2rem;
+  color: #292b2c;
+}
